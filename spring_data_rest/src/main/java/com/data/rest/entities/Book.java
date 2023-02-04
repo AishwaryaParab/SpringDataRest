@@ -1,6 +1,5 @@
 package com.data.rest.entities;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -17,7 +16,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "book_collection") // creating a table with this name
+//@Table(name = "book_collection") // creating a table with this name
 @Data // generates getters, setters, constructors, overrides toString() and more!
 //@AllArgsConstructor
 //@NoArgsConstructor

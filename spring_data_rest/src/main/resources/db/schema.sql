@@ -1,5 +1,5 @@
-CREATE TABLE temp (
-	author_id INTEGER AUTO_INCREMENT,
-    author_name VARCHAR(255),
-    PRIMARY KEY(author_id)
+ CREATE TABLE temp (
+	temp_id INTEGER AUTO_INCREMENT,
+    temp_name VARCHAR(255),
+    PRIMARY KEY(temp_id)
 );
