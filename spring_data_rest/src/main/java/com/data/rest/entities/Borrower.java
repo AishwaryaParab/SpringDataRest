@@ -20,13 +20,14 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 public class Borrower {
 	
 	@Id
 	@Column(unique = true)
 	@NotNull
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int borrowerId;
 	
 	@NotNull

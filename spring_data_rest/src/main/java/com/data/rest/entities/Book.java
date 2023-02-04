@@ -19,8 +19,8 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "book_collection") // creating a table with this name
 @Data // generates getters, setters, constructors, overrides toString() and more!
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 public class Book {
 
 	@Id
